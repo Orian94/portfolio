@@ -16,24 +16,24 @@
       <nav>
         <h1 class="personal__logo">David Wells</h1>
         <ul class="nav__link--list">
-          <li>
+          <li class="nav__link">
             <a
-              href="languages"
+              href="#languages"
               class="nav__link--anchor link__hover-effect link__hover-effect--black"
               >Languages</a
             >
           </li>
-          <li>
+          <li class="nav__link">
             <a
-              href="projects"
+              href="#projects"
               class="nav__link--anchor link__hover-effect link__hover-effect--black"
               >Projects</a
             >
           </li>
-          <li>
+          <li class="nav__link">
             <a
-              href="contact"
-              class="nav__link--anchor nav__link--anchor--primary"
+              href="mailto:wellsdavid1125@gmail.com"
+              class="nav__link--anchor nav__link--anchor--primary" target="_blank"
               >Contact</a
             >
           </li>
@@ -50,67 +50,256 @@
               />
             </figure>
             <h1 class="about-me__info--title">
-              Hey! I'm <span class="text-purple">David Wells</span>
+              Hey! I'm <span class="text-purple">David Wells</span>&nbsp;<span class="wave">👋</span>
             </h1>
             <p class="about-me__info--para">
               I am a
               <strong class="text-purple">frontend software engineer</strong>
-              passionate about creating user-friendly web
-              applications and digital solutions
+              passionate about creating user-friendly web applications and
+              digital solutions
             </p>
             <div class="about-me__links">
-              <a href="" class="about-me__link">
+              <a href="https://github.com/Orian94" target="_blank" class="about-me__link">
                 <i class="fa-brands fa-github"></i>
               </a>
-              <a href="" class="about-me__link">
+              <a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit" target="_blank" class="about-me__link">
                 <i class="fa-brands fa-linkedin"></i>
               </a>
-              <a href="" class="about-me__link">
+              <a href="mailto:wellsdavid1125@gmail.com" target="_blank" class="about-me__link">
                 <i class="fa-regular fa-envelope"></i>
               </a>
-              <a href="" class="about-me__link">
+              <a href="./assets/Resume Placeholder.pdf" target="_blank" class="about-me__link">
                 <i class="fa-regular fa-file-pdf"></i>
               </a>
             </div>
           </div>
           <figure class="about-me__img--container">
-            <img src="./assets/undraw_Programming_re_kg9v.png" class="about-me__img" alt="">
+            <img
+              src="./assets/undraw_Programming_re_kg9v.png"
+              class="about-me__img"
+              alt=""
+            />
           </figure>
         </div>
       </div>
     </section>
     <section id="languages">
-        <div class="container languages__container">
-            <div class="row">
-                <h1 class="section__title">This is my <span class="text-purple">technoligy stack</span></h1>
-                <div class="language__list">
-                    <div class="language">
-                        <figure class="language__img--wrapper">
-                            <img src="https://img.icons8.com/?size=100&id=20909&format=png&color=000000" alt="" class="language__img">
-                        </figure>
-                        <span class="language__name">HTML</span>
-                    </div>
-                    <div class="language">
-                        <figure class="language__img--wrapper">
-                            <img src="https://img.icons8.com/?size=100&id=21278&format=png&color=000000" alt="" class="language__img">
-                        </figure>
-                        <span class="language__name">CSS</span>
-                    </div>
-                    <div class="language">
-                        <figure class="language__img--wrapper">
-                            <img src="https://img.icons8.com/?size=100&id=108784&format=png&color=000000" alt="" class="language__img">
-                        </figure>
-                        <span class="language__name">Javascript</span>
-                    </div>
-                    <div class="language">
-                        <figure class="language__img--wrapper">
-                            <img src="https://img.icons8.com/?size=100&id=122637&format=png&color=000000" alt="" class="language__img">
-                        </figure>
-                        <span class="language__name">React</span>
-                    </div>
-                </div>
+      <div class="container languages__container">
+        <div class="row">
+          <h1 class="section__title">
+            This is my <span class="text-purple">technoligy stack</span>
+          </h1>
+          <div class="language__list">
+            <div class="language">
+              <figure class="language__img--wrapper">
+                <img
+                  src="https://img.icons8.com/?size=100&id=20909&format=png&color=000000"
+                  alt=""
+                  class="language__img"
+                />
+              </figure>
+              <span class="language__name">HTML</span>
             </div>
+            <div class="language">
+              <figure class="language__img--wrapper">
+                <img
+                  src="https://img.icons8.com/?size=100&id=21278&format=png&color=000000"
+                  alt=""
+                  class="language__img"
+                />
+              </figure>
+              <span class="language__name">CSS</span>
+            </div>
+            <div class="language">
+              <figure class="language__img--wrapper">
+                <img
+                  src="https://img.icons8.com/?size=100&id=108784&format=png&color=000000"
+                  alt=""
+                  class="language__img"
+                />
+              </figure>
+              <span class="language__name">Javascript</span>
+            </div>
+            <div class="language">
+              <figure class="language__img--wrapper">
+                <img
+                  src="https://img.icons8.com/?size=100&id=122637&format=png&color=000000"
+                  alt=""
+                  class="language__img"
+                />
+              </figure>
+              <span class="language__name">React</span>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
+    <section id="projects">
+      <div class="container">
+        <div class="row">
+          <h1 class="section__title">
+            Here are some of my <span class="text-purple">projects</span>
+          </h1>
+          <ul class="project__list">
+            <li class="project">
+              <div class="project__wrapper">
+                <img
+                  src="./assets/undraw_Building_blocks_re_5ahy.png"
+                  class="project__img"
+                  alt="project 1"
+                />
+                <div class="project__description">
+                  <h3 class="project__description--title">Project</h3>
+                  <h4 class="project__description--sub-title">
+                    HTML, CSS, Vue, Vuex
+                  </h4>
+                  <p class="project__description--para">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Voluptatum ut beatae adipisci? Animi, ea ut ipsum atque
+                    quaerat possimus asperiores magni ratione sequi repellat,
+                    sit velit omnis dolorem voluptatibus temporibus.
+                  </p>
+                  <div class="project__description--links">
+                    <a
+                      href="https://www.github.com/yoursite"
+                      target="_blank"
+                      class="project__description--link"
+                    >
+                      <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a
+                      href="https://www.yoursite.com/yoursite"
+                      target="_blank"
+                      class="project__description--link"
+                    >
+                      <i class="fa-solid fa-link"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="project">
+              <div class="project__wrapper">
+                <img
+                  src="./assets/undraw_Building_blocks_re_5ahy.png"
+                  class="project__img"
+                  alt="project 1"
+                />
+                <div class="project__description">
+                  <h3 class="project__description--title">Project</h3>
+                  <h4 class="project__description--sub-title">
+                    HTML, CSS, Vue, Vuex
+                  </h4>
+                  <p class="project__description--para">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Voluptatum ut beatae adipisci? Animi, ea ut ipsum atque
+                    quaerat possimus asperiores magni ratione sequi repellat,
+                    sit velit omnis dolorem voluptatibus temporibus.
+                  </p>
+                  <div class="project__description--links">
+                    <a
+                      href="https://www.github.com/yoursite"
+                      target="_blank"
+                      class="project__description--link"
+                    >
+                      <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a
+                      href="https://www.yoursite.com/yoursite"
+                      target="_blank"
+                      class="project__description--link"
+                    >
+                      <i class="fa-solid fa-link"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="project">
+              <div class="project__wrapper">
+                <img
+                  src="./assets/undraw_Building_blocks_re_5ahy.png"
+                  class="project__img"
+                  alt="project 1"
+                />
+                <div class="project__description">
+                  <h3 class="project__description--title">Project</h3>
+                  <h4 class="project__description--sub-title">
+                    HTML, CSS, Vue, Vuex
+                  </h4>
+                  <p class="project__description--para">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Voluptatum ut beatae adipisci? Animi, ea ut ipsum atque
+                    quaerat possimus asperiores magni ratione sequi repellat,
+                    sit velit omnis dolorem voluptatibus temporibus.
+                  </p>
+                  <div class="project__description--links">
+                    <a
+                      href="https://www.github.com/yoursite"
+                      target="_blank"
+                      class="project__description--link"
+                    >
+                      <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a
+                      href="https://www.yoursite.com/yoursite"
+                      target="_blank"
+                      class="project__description--link"
+                    >
+                      <i class="fa-solid fa-link"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="row footer__row">
+        <a href="#" class="footer__anchor">
+          <figure class="footer__logo">
+            <img
+              src="./assets/Orian Bespoke OB (transparant).png"
+              class="footer__logo--img"
+              alt=""
+            />
+          </figure>
+          <span class="footer__logo--popper">
+            Top
+            <i class="fas fa-arrow-up"></i>
+          </span>
+
+        </a>
+        <div class="footer__social--list">
+          <a
+            href="https://github.com/Orian94"
+            class="footer__social--link link__hover-effect link__hover-effect--white"
+            target="_blank"
+            >Github</a
+          >
+          <a
+            href="https://yourwebsite.com/Orian94"
+            class="footer__social--link link__hover-effect link__hover-effect--white"
+            target="_blank"
+            >Website</a
+          >
+          <a
+            href="mailto:wellsdavid1125@gmail.com"
+            class="footer__social--link link__hover-effect link__hover-effect--white"
+            target="_blank"
+            >Email</a
+          >
+          <a
+            href="./assets/Resume Placeholder.pdf"
+            class="footer__social--link link__hover-effect link__hover-effect--white"
+            target="_blank"
+            >Resume</a
+          >
+        </div>
+        <div class="footer__copyright">Copyright © 2024 David Wells</div>
+      </div>
+    </footer>
   </body>
 </html>
